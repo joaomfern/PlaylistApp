@@ -1,0 +1,51 @@
+body,
+html {
+  height: 100%;
+  background-image: url("images/YouTube-iPhone-1000x450.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.container {
+  max-width: 400px;
+}
+
+input[type=text],
+
+input[type=text]:focus {
+  color: rgb(29, 27, 27);
+  border: none;
+  background: rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+}
+
+.delete {
+  cursor: pointer;
+}
+
+.filtered {
+  display: none !important;
+}
+
+.div {
+  float: center;
+}
+
+.ativo {
+  background-color: indianred;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.icones {
+  float: right;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.pressed {
+  color: blue;
+}
